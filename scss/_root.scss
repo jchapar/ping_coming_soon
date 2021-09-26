@@ -1,0 +1,20 @@
+:root {
+  --primaryBlue: hsl(223, 87%, 63%);
+  --paleBlue: hsl(223, 100%, 88%);
+  --lightRed: hsl(354, 100%, 66%);
+  --gray: hsl(0, 0%, 59%);
+  --veryDarkBlue: hsl(209, 33%, 12%);
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  max-width: 37.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
+  text-align: center;
+}
