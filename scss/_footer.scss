@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .social-icons {
+    display: flex;
+
+    .icon {
+      margin: 0 0.5rem;
+      border: 1px solid var(--gray);
+      border-radius: 50%;
+      height: 2.5rem;
+      width: 2.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+      cursor: pointer;
+
+      i {
+        color: var(--primaryBlue);
+      }
+    }
+  }
+  .copyright {
+    color: var(--gray);
+    margin-bottom: 1rem;
+  }
+}
